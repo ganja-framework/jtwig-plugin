@@ -1,0 +1,9 @@
+parameters:
+
+    jtwig.engine.class: ganja.plugin.jtwig.engine.JtwigEngine
+
+services:
+
+    jtwig.engine:
+        class: jtwig.engine.class
+
